@@ -1,0 +1,69 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	background: #ffffff;
+	margin-top: 20px;
+	margin-right: 25px;
+	margin-left: 25px;
+	margin-bottom: 0px;
+	color: #000000;
+	font-family: "sans-serif font-family";
+}
+#page {
+	background-color: #006699;
+	left: 6px;
+	top: 6px;
+	right: 6px;
+	bottom: 6px;
+	clip: rect(6px,6px,6px,6px);
+}
+
+header {
+	height: 0px;
+	padding-right: 0px;
+	color: #000;
+}
+p{font-size:25px}
+#h1 {
+	font-size: 60px;
+	text-align:left;
+	padding-left: 20px; 
+	height: 72px;
+	margin-bottom:0px;
+	}
+nav ul { list-style-type: none;}
+nav li{display:inline;}
+nav a{
+	text-decoration:none;
+	padding-right: 6px;
+	}
+#nav a:link { color: #006699; }
+#nav a:active { color: #999999; }
+#nav a:visited { color: #999999;}
+#nav a:hover {
+	text-decoration:none;
+	color: #000000;
+	}	
+#h2 { color: #cccccc;
+    }
+
+#footer{
+	border-top: 1px solid #003366;
+	font-size: 0.8em;
+	text-align: right;
+	}
+.copyright{font-style:italic;}
+legend
+	{font-family:sans-serif, times new roman;
+	font-weight: bold;
+	}
+input,textarea
+	{margin-top:10px;
+	}
+
+.clear { clear: both; }
+header, nav, main, footer, lable, legend, fieldest{ display: block; }
+li {
+	bottom: auto;
+	clip: rect(auto,auto,auto,auto);
+}
